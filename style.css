@@ -61,10 +61,11 @@ body{
 
 
 .last{
-    background-color: #0E5174;
+    background-color: #073b57;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     height: 350px;
     padding-top: 80px;
     margin-top: -90px;
@@ -80,6 +81,7 @@ body{
     width: 300px;
     text-align: center;
     color: #fff;
+    
       
 }
 
@@ -141,7 +143,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     padding-bottom: 100px;
+    width: 100%;
 }
 
 .part4 h3{
@@ -149,6 +153,8 @@ body{
     font-family: 'roboto', 'sans-serif';
     width: 400px;
     font-size: 30pt;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .part4 iframe{
@@ -219,4 +225,150 @@ footer .form form button{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     
+}
+
+
+
+
+@media (max-width: 1000px){
+    .exdivs .text{
+        width: 350px;
+    }
+    footer .ctt{
+        width: 450px;
+        font-size: 15pt;
+        line-height: 30px;
+        font-family: monospace;
+        margin-bottom: 40px;
+        text-align: justify;
+    
+       }
+
+}
+@media (max-width: 920px){
+    .last{
+        height: auto;
+        padding: 50px;
+        padding-top: 110px;
+    }
+    .lastes{
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width: 750px){
+    .start2 img{
+        display: none;
+    }
+
+    .part3 img{
+        width: 50%;
+    }
+    .two{
+        width: 50%;
+    }
+
+    .two h2{
+        font-size: 20pt;
+        margin-bottom: 10px;
+    }
+    
+    .two li{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        font-size: 12pt;
+    }
+    
+    footer .ctt{
+        width: 450px;
+        font-size: 15pt;
+        line-height: 30px;
+        font-family: monospace;
+        margin-bottom: 40px;
+        text-align: justify;
+
+   }
+
+   .part4{
+       border-top: 1px solid white;
+   }
+   .part4 h3{
+       font-size: 20pt;
+       text-align: center;
+       margin: 20px;
+       margin-top: 40px;
+       width: auto;
+      
+   }
+   
+    
+}
+
+@media (width: 600px){
+    .part3 h2{
+        font-size: 15pt;
+    }
+}
+
+@media (max-width: 580px){
+    .two h2{
+        font-size: 17pt;
+    }
+    
+    .two li{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        font-size: 10pt;
+    }
+
+    .part4 iframe{
+      width: 470px;
+    }
+
+    .part3 img{
+        width: 60%;
+    }
+    .two{
+        width: 40%;
+    }
+}
+@media (max-width: 500px){
+    footer .form form input{
+        width: 200px;
+        height: 30px;
+        
+    }
+    footer .form form textarea{
+        width: 200px;
+        height: 50px;
+        
+    }
+    footer .form form button{
+        width: 340px;
+        height: 35px;
+        
+    }
+
+    .two h2{
+        font-size: 13pt;
+    }
+    
+}
+
+@media (max-width: 415px){
+    
+    
+    .two li{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        margin-left: 20px;
+        font-size: 10pt;
+    }
+
+    .part4 iframe{
+      width: 300px;
+    }
 }
