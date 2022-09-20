@@ -262,6 +262,10 @@ footer .form form button{
         display: none;
     }
 
+    .part3{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
     .part3 img{
         width: 50%;
     }
